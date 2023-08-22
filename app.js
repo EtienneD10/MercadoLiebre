@@ -3,12 +3,14 @@ const { dirname } = require('path');
 const app = express();
 const path = require('path');
 
+const port = 3030;
 
 app.get('/', (req, res) => {
-   res.sendFile(path.join(__dirname, './views/index.html'))
+   res.sendFile(path.join(__dirname, './views/home.html'))
 });
 
-app.listen(3030, () =>{
+
+app.listen(port, () =>{
     console.log("server andando");
 })
 
