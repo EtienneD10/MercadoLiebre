@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Mercado Liebre</title>
-    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
-        <img src="/public/img/logo-mercado-liebre.svg" alt="mercado-liebre">
-
-    <h1>Lugar para motor de busqueda</h1>
-    <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
+        <div class="nav-main">
+            <a href="/"><img class="logo-mercado-liebre-header" src="/public/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre"></a>
+        <div class="search-nav">
+            <form>
+                <input class="search-box" type="search" name="search" placeholder="Buscar productos, marcas y mas">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <p>Compra en cuotas y sin tarjeta de creditos <i class="fa-solid fa-hand-holding-dollar"></i></p>
+        </div>
 
     <ul>
         <li>Ofertas</li>
